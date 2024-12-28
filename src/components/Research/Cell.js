@@ -38,7 +38,7 @@ const Cell = ({
   </article>
 );
 
-Research.propTypes = {
+Cell.propTypes = {
   data: PropTypes.shape({
     title: PropTypes.string.isRequired,
     subtitle: PropTypes.string.isRequired,
