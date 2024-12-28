@@ -160,7 +160,7 @@ const courses = [
   number: 'MTH499',
   link: 'https://www.suss.edu.sg/courses/detail/mth499',
   university: 'Singapore University of Social Sciences',
-  }
+  },
 ];
 
 export default courses;
