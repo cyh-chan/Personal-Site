@@ -155,6 +155,7 @@ const courses = [
     link: 'https://www.suss.edu.sg/courses/detail/mth366',
     university: 'Singapore University of Social Sciences',
   },
+  {
   title: 'Capstone Mathematics Project',
   number: 'MTH499',
   link: 'https://www.suss.edu.sg/courses/detail/mth499',
