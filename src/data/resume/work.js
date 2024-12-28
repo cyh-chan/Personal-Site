@@ -13,6 +13,20 @@
  */
 const work = [
   {
+    name: 'A*STAR, Advanced Remanufacturing and Technology Centre, Digital Supply Chain ',
+    position: 'Research Intern',
+    url: 'https://www.a-star.edu.sg/artc/RandD-themes/digital-supply-chain',
+    startDate: '2024-11-01',
+    endDate: '2025-05-31',
+    // summary: `Insert
+    // text.`,
+    highlights: [
+      'Awarded the A*STAR Research Internship Award.',
+      'Collaborated with a team under the supervision of Dr. Liu Ning on the project ”Data-Driven Framework for Enhancing Supply Chain Resilience”.',
+      'Reproduced and refined the model from the research paper ”A Practical End-to-End Inventory Management Model with Deep Learning”, enhancing the inventory management system’s accuracy and performance.',
+    ],
+  },
+  {
     name: 'Indeed',
     position: 'Finance Assistant',
     url: 'https://indeed.com/',

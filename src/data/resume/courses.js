@@ -1,5 +1,17 @@
 const courses = [
   {
+    title: 'Structured Programming',
+    number: 'ICT133',
+    link: 'https://www.suss.edu.sg/courses/detail/ict133',
+    university: 'Singapore University of Social Sciences',
+  },
+  {
+    title: 'Object Oriented Programming',
+    number: 'ICT162',
+    link: 'https://www.suss.edu.sg/courses/detail/ict162',
+    university: 'Singapore University of Social Sciences',
+  },
+  {
     title: 'Fundamentals of Mathematics',
     number: 'MTH105',
     link: 'https://www.suss.edu.sg/courses/detail/mth105',
@@ -30,6 +42,24 @@ const courses = [
     university: 'Singapore University of Social Sciences',
   },
   {
+    title: 'Data Visualisation for Business',
+    number: 'ANL201',
+    link: 'https://www.suss.edu.sg/courses/detail/anl201',
+    university: 'Singapore University of Social Sciences',
+  },
+  {
+    title: 'Analytics for Decision-Making',
+    number: 'ANL203',
+    link: 'https://www.suss.edu.sg/courses/detail/anl203',
+    university: 'Singapore University of Social Sciences',
+  },
+  {
+    title: 'Python for Data Analytics',
+    number: 'ANL252',
+    link: 'https://www.suss.edu.sg/courses/detail/anl252',
+    university: 'Singapore University of Social Sciences',
+  },
+  {
     title: 'Linear Algebra',
     number: 'MTH207',
     link: 'https://www.suss.edu.sg/courses/detail/mth207',
@@ -54,9 +84,15 @@ const courses = [
     university: 'Singapore University of Social Sciences',
   },
   {
-    title: 'Applied Regression Analysis I',
-    number: 'MTH357',
-    link: 'https://www.suss.edu.sg/courses/detail/mth357',
+    title: 'Fundamentals of Complex Analysis',
+    number: 'MTH301',
+    link: 'https://www.suss.edu.sg/courses/detail/mth301',
+    university: 'Singapore University of Social Sciences',
+  },
+  {
+    title: 'Applied Complex Analysis',
+    number: 'MTH302',
+    link: 'https://www.suss.edu.sg/courses/detail/mth302',
     university: 'Singapore University of Social Sciences',
   },
   {
@@ -90,9 +126,27 @@ const courses = [
     university: 'Singapore University of Social Sciences',
   },
   {
+    title: 'Basic Statistical Methods in Experimental Design',
+    number: 'MTH353',
+    link: 'https://www.suss.edu.sg/courses/detail/mth353',
+    university: 'Singapore University of Social Sciences',
+  },
+  {
     title: 'Basic Mathematical Optimisation',
     number: 'MTH355',
     link: 'https://www.suss.edu.sg/courses/detail/mth355',
+    university: 'Singapore University of Social Sciences',
+  },
+  {
+    title: 'Applied Regression Analysis I',
+    number: 'MTH357',
+    link: 'https://www.suss.edu.sg/courses/detail/mth357',
+    university: 'Singapore University of Social Sciences',
+  },
+  {
+    title: 'Stochastic Processes I',
+    number: 'MTH361',
+    link: 'https://www.suss.edu.sg/courses/detail/mth361',
     university: 'Singapore University of Social Sciences',
   },
   {
@@ -100,6 +154,11 @@ const courses = [
     number: 'MTH366',
     link: 'https://www.suss.edu.sg/courses/detail/mth366',
     university: 'Singapore University of Social Sciences',
+  },
+  title: 'Capstone Mathematics Project',
+  number: 'MTH499',
+  link: 'https://www.suss.edu.sg/courses/detail/mth499',
+  university: 'Singapore University of Social Sciences',
   },
 ];
 
