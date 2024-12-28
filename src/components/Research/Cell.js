@@ -1,31 +1,52 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import dayjs from 'dayjs';
+import Markdown from 'markdown-to-jsx';
 
-const Cell = ({ data }) => (
-  <div className="cell-container">
-    <article className="mini-post">
-      <header>
-        <h3><a href={data.link}>{data.title}</a></h3>
-        <time className="published">{dayjs(data.date).format('MMMM, YYYY')}</time>
-      </header>
-      <a href={data.link} className="image">
-        <img src={`${process.env.PUBLIC_URL}${data.image}`} alt={data.title} />
-      </a>
-      <div className="description">
-        <p>{data.desc}</p>
-      </div>
-    </article>
-  </div>
+const Cell = ({
+  data: {
+    name, position, url, startDate, endDate, summary, highlights,
+  },
+}) => (
+  <article className="jobs-container">
+    <header>
+      <h4><a href={url}>{name}</a> - {position}</h4>
+      <p className="daterange"> {dayjs(startDate).format('MMMM YYYY')} - {endDate ? dayjs(endDate).format('MMMM YYYY') : 'PRESENT'}</p>
+    </header>
+    {summary ? (
+      <Markdown
+        options={{
+          overrides: {
+            p: {
+              props: {
+                className: 'summary',
+              },
+            },
+          },
+        }}
+      >
+        {summary}
+      </Markdown>
+    ) : null}
+    {highlights ? (
+      <ul className="points">
+        {highlights.map((highlight) => (
+          <li key={highlight}>{highlight}</li>
+        ))}
+      </ul>
+    ) : null}
+  </article>
 );
 
 Cell.propTypes = {
   data: PropTypes.shape({
     title: PropTypes.string.isRequired,
-    link: PropTypes.string,
-    image: PropTypes.string.isRequired,
-    date: PropTypes.string.isRequired,
-    desc: PropTypes.string.isRequired,
+    subtitle: PropTypes.string.isRequired,
+    url: PropTypes.string,
+    startDate: PropTypes.string.isRequired,
+    endDate: PropTypes.string,
+    summary: PropTypes.string,
+    highlights: PropTypes.arrayOf(PropTypes.string.isRequired),
   }).isRequired,
 };
 

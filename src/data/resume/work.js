@@ -13,7 +13,7 @@
  */
 const work = [
   {
-    name: 'A*STAR, Advanced Remanufacturing and Technology Centre, Digital Supply Chain ',
+    name: 'A*STAR, Advanced Remanufacturing and Technology Centre, Digital Supply Chain',
     position: 'Research Intern',
     url: 'https://www.a-star.edu.sg/artc/RandD-themes/digital-supply-chain',
     startDate: '2024-11-01',
