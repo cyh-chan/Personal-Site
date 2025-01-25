@@ -2,17 +2,18 @@
 const data = [
   {
     title: 'Machine Learning Techniques for Stock Price Prediction',
-    subtitle: 'w/ Dr. Joey Zhou',
+    subtitle: 'w/ Dr. Joey Zhou Tianyi',
     // url: '',
     startDate: '2025-01-01',
     endDate: '2025-11-30',
     // summary: `Insert
     // text.`,
     highlights: [
-      'Developed and implemented a Bayesian framework for stock price prediction, incorporating probabilistic forecasting to model market uncertainty and enhance trading decisions.',
-      'Designed and tested alpha generation strategies, leveraging momentum-based and mean-reversion techniques informed by predictive distributions.',
-      'Conducted backtesting on historical stock data to evaluate performance against traditional benchmarks, such as market indices and standard financial models.',
-      'Performed comparative analysis of Bayesian methods versus traditional and machine learning models, demonstrating improvements in alpha generation and market uncertainty modeling.',
+      'Developed and implemented a Bayesian framework for stock price prediction, incorporating probabilistic forecasting to model market uncertainty and improve predictive accuracy',
+      'Designed and implemented Bayesian neural networks (BNNs) for stock price forecasting, emphasizing the ability to capture uncertainty in predictions',
+      'Conducted a comprehensive comparative analysis of Bayesian neural networks versus traditional forecasting methods and other machine learning models',
+      'Performed backtesting on historical stock data to evaluate model performance across different metrics, including forecasting accuracy and robustness under market volatility',
+      'Demonstrated the advantages of Bayesian methods in capturing market uncertainty compared to other models, highlighting their utility in complex financial prediction tasks'
     ],
   },
   {
