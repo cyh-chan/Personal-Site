@@ -13,7 +13,7 @@ const data = [
       'Designed and implemented Bayesian neural networks (BNNs) for stock price forecasting, emphasizing the ability to capture uncertainty in predictions',
       'Conducted a comprehensive comparative analysis of Bayesian neural networks versus traditional forecasting methods and other machine learning models',
       'Performed backtesting on historical stock data to evaluate model performance across different metrics, including forecasting accuracy and robustness under market volatility',
-      'Demonstrated the advantages of Bayesian methods in capturing market uncertainty compared to other models, highlighting their utility in complex financial prediction tasks'
+      'Demonstrated the advantages of Bayesian methods in capturing market uncertainty compared to other models, highlighting their utility in complex financial prediction tasks',
     ],
   },
   {
